@@ -35,40 +35,59 @@ Identify Active Hosts
 TCP Port Scan
 
 
-
-
-Requirements
+```
+### Requirements
 
 Make sure the following tools are installed:
 
-Python 3
-Nmap
-ipcalc
-ifconfig
-Install Nmap
+- Python 3
+- Nmap
+- ipcalc
+- ifconfig
+
+### Install Nmap
+
+```bash
 sudo apt update
 sudo apt install nmap
-Install ipcalc
+```
+
+### Install ipcalc
+
+```bash
 sudo apt install ipcalc
-Usage
+```
+
+## Usage
 
 Clone the repository:
 
+```bash
 git clone https://github.com/amdadul20041971/Automated-network-port-scanner.git
+```
 
 Navigate to the project directory:
 
+```bash
 cd Automated-network-port-scanner
+```
 
 Run the script:
 
+```bash
 python3 network_scanner.py
-Disclaimer
+```
+
+## Disclaimer
 
 This project is created for educational purposes and authorized security testing only. Do not scan networks or systems without proper permission.
 
-Author
+## Author
 
-Amdadul Huq Emon
+**Amdadul Huq Emon**
 
 Cybersecurity Enthusiast | Python | Network Security
+
+
+
+
